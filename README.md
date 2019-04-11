@@ -1,6 +1,6 @@
 # Prueba-Tecnica-ING-DESARROLLO-Adrian-Yepez
 
-Buen día,
+Buen día, <br>
 De antemano quiero dar gracias por haberme escogido para participar en este proceso de selección para formar parte desu grupo de trabajo. Me siento orgulloso de eso.
 Cabe destacar que no cumplí con satisfacción algunos objetivos de la prueba tales como redireccionar el módulo hecho hacia la pasarela de pago de Place To Pay, además de captar la IP y/o navegador del usuario (Este último se pide al usuario en un formulario)
 Esto se debe a que no cumplo actualmente con los conocimientos para realizar los codigos requeridos para cumplir con estos parámetros, sin embargo, al realizar esta prueba en menos de 48 horas me hace interesarme en la rama de pagos en línea, por lo que me gustaría formar parte del equipo de Place To Pay en un futuro.
