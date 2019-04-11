@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" id="theme-switch"  href="css/style.css">
+</head>
+
+<body>
+	<header role="banner" id="fh5co-header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+	        	<div class="navbar-header">
+	        		<a class="navbar-brand" href="https://www.placetopay.com/web/home" style="background-image: url(images/logo2.jpg);"></a> 
+	        	</div>
+	        	<div id="navbar" class="navbar-collapse collapse">
+	          		<ul class="nav navbar-nav navbar-right">
+	          			<li class="active"><a href="ConsultaPagos.php"><span>CONSULTA DE PAGOS</span></a></li>
+			            <li class="active"><a href="index.html"><span>PANTALLA PRINCIPAL</span></a></li>
+	          		</ul>
+	        	</div>
+		    </nav>
+
+	  	</div>
+	</header>
+
+	<section id="fh5co-home" data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+				<div class="text-inner">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<form action="DatosUsuarios.php" method="POST">
+
+		<table border="2" align="center" id="tabla2">
+			
+				<h1 align="center">DATOS COMPRADOR</h1>
+				<tr >
+					<td>Nombre Completo</td>
+					<td><input class="input" type="text" name="Nombre"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input class="input" type="mail" name="mail"></td>
+				</tr>
+				<tr>
+					<td>Teléfono</td>
+					<td><input class="input" type="text" name="tlf"></td>	
+				</tr>
+				<tr>
+					<td>Dirección</td>
+					<td><input class="input" type="text" name="direccion"></td>	
+				</tr>
+		</table><br>
+		<table border="2" align="center" id="tabla2">
+			
+				<h1 align="center">DATOS PAYMENT</h1>
+				<tr >
+					<td>Currency</td>
+					<td><input class="input" type="text" name="currency"></td>
+				</tr>
+				<tr >
+					<td>Valor</td>
+					<td><input class="input" type="text" name="valor"></td>
+				</tr>
+				<tr>
+					<td>Referencia</td>
+					<td><input class="input" type="text" name="referencia"></td>
+				</tr>
+				<tr>
+					<td>Fecha Expiración</td>
+					<td><input class="input" type="date" name="fechaexp" placeholder="AAAA-MM-DD"></td>	
+				</tr>
+				<tr>
+					<td>Agente de Navegación</td>
+					<td><input class="input" type="text" name="agente"></td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input type="submit"  value="insertar">
+					</td>
+				</tr>
+		</table>
+	</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
